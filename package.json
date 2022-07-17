@@ -1,0 +1,35 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Basic MCS project for Node",
+  "engines": {
+    "nodejs": "1.0.0",
+    "npm": "8.10.0",
+    "node": "16.15.0"
+  },
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kamran",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bootstrap": "^5.1.3",
+    "connect-flash": "^0.1.1",
+    "cookie-session": "^2.0.0",
+    "dotenv": "^16.0.1",
+    "esm": "^3.2.25",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "hbs": "^4.2.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.4.0",
+    "mongoose-unique-validator": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
